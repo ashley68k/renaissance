@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "%s",
+  "id": "renaissance",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Renaissance",
+  "description": "A lightweight Beta 1.7.3 mod adding new features, progression, and QoL in a Vanilla+ style. ",
   "authors": [
-    "Me!"
+    "ashley68k"
   ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+    "homepage": "https://ashley68k.github.io",
+    "sources": "https://github.com/ashley68k/renaissance"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/%s/icon.png",
+  "icon": "assets/renaissance/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "%s.events.init.InitListener"
+      "io.github.ashley68k.renaissance.events.init.InitListener"
     ],
     "stationapi:event_bus_client": [
     ],
@@ -27,7 +27,7 @@
     ]
   },
   "mixins": [
-    "%s.mixins.json"
+    "renaissance.mixins.json"
   ],
 
   "depends": {

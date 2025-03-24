@@ -1,4 +1,4 @@
-package net.glasslauncher.example.events.init;
+package io.github.ashley68k.renaissance.events.init;
 
 import net.mine_diver.unsafeevents.listener.EventListener;
 import net.modificationstation.stationapi.api.event.mod.InitEvent;
