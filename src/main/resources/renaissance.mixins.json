@@ -4,7 +4,7 @@
   "package": "io.github.ashley68k.renaissance.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ExampleMixin"
+    "CloudTexMixin"
   ],
   "server": [
   ],
